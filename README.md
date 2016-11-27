@@ -5,7 +5,7 @@ A Free Code Camp API project.
 This is an implemetation of Timestamp Microservice, one of Free Code Camp API projects.
 
 ### Usage
-Visit the site: [demosite](demosite)
+Visit the site: [https://u-timestamp.herokuapp.com/](https://u-timestamp.herokuapp.com/)
 
 ### About Free Code Camp
 Free Code Camp is a friendly open source community where you learn to code and help nonprofits.
