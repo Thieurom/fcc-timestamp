@@ -15,8 +15,11 @@
   "bugs": {
     "url": "https://github.com/Thieurom/fcc-timestamp/issues"
   },
-  "homepage": "https://github.com/Thieurom/fcc-timestamp#readme",
+  "homepage": "https://u-timestamp.herokuapp.com/",
   "devDependencies": {
     "express": "^4.14.0"
+  },
+  "engines": {
+    "node": "6.9.1"
   }
 }
