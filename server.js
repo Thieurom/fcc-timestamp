@@ -5,7 +5,7 @@ const ts = require('./timestamp.js');
 const utils = require('./utils.js');
 
 
-const PORT = 8080;
+const port = process.env.PORT || 8080;
 const app = express();
 
 app.use(express.static('static'));
@@ -37,6 +37,6 @@ app.get('/:param', (req, res) => {
     res.json({unix, natural});
 });
 
-app.listen(PORT, () => {
-    console.log(`Server is listening on port ${PORT}!`);
+app.listen(port, () => {
+    console.log(`Server is listening on port ${port}!`);
 });
